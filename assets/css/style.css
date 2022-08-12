@@ -1,0 +1,41 @@
+html {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resultado {
+  width: fit-content;
+  height: 2em;
+}
+
+.error {
+  color: red;
+}
+
+.divInput {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 4rem auto 4rem auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.divInput > * {
+  display: block;
+  margin: 1rem;
+}
+
+.btn {
+  width: 7rem;
+  height: 2rem;
+}
